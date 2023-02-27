@@ -1,5 +1,4 @@
-alert("hello world")
-document.write("this is commit 2")
-document.write("this is commit 3")
-document.write("this is commit 4")
-document.write("this is commit 5")
+document.write("Result:<br>")
+var a = 10
+document.write(`The value of a is ${a} <br>`)
+document.write(".............................<br>")

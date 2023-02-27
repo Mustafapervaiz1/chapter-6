@@ -13,3 +13,5 @@ document.write(`Now value of a is${a} <br><br>`)
 // step 5
 document.write(`The value of a-- is${a--} <br>`)
 document.write(`Now value of a is${a} <br>`)
+// step 2.1 
+var a =2,b=1;

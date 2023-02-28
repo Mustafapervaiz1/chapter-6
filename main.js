@@ -37,10 +37,10 @@ var sub3 = prompt("subject third");
 //             ////step 6.b
 var total_marks = 100;
 //          ////step 6.c
-var Obtained_Marks_1 = prompt("subject first number");
+var Obtained_Marks_1 = parseInt(prompt("subject first number"));
 //          ////step 6.d
-var Obtained_Marks_2 = prompt("subject second number");
-var Obtained_Marks_3 = prompt("subject third number");
+var Obtained_Marks_2 = parseInt(prompt("subject second number"));
+var Obtained_Marks_3 = parseInt(prompt("subject third number"));
 var percentage1 = (Obtained_Marks_1 / total_marks*100)
 var percentage2 = (Obtained_Marks_2 / total_marks*100)
 var percentage3 = (Obtained_Marks_3 / total_marks*100)
@@ -57,3 +57,7 @@ document.write(
 document.write(
   `<table border='1px'><th>${sub3}</th><th>${total_marks}</th><th>${Obtained_Marks_3}</th><th>${percentage3}%</th></table>`
 );
+document.write(
+  `<table border='1px'><th>${total_marks*3}</th><th>${ Obtained_Marks_1 + Obtained_Marks_2 + Obtained_Marks_3}</th><th>${percentage1+percentage2+percentage3}%</th></table>`
+);
+
